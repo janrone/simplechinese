@@ -1,0 +1,118 @@
+{
+  "uuid": "724e9f4c-e684-453a-aaf2-3127efb78b57",
+  "shortName": "Simpl Chinese",
+  "longName": "Simpl Chinese",
+  "companyName": "janrone",
+  "versionCode": 1,
+  "versionLabel": "1.0.2",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_simplicity.png"
+      },
+      {
+         "type": "png",
+          "name": "BLUETOOTH",
+          "file": "images/bluetooth.png"
+       },
+       {
+        "type": "png",
+        "name": "BATTERY_CHARGE",
+         "file": "images/battery-charge.png"
+       },
+       {
+        "type": "png",
+        "name": "BATTERY_ICON",
+       "file": "images/battery_icon.png"
+      },
+      {
+        "characterRegex": "[:0-9 ]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_45",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "characterRegex": "[:0-9 ]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_16",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "characterRegex": "[:0-9 ]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_21",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_CONDENSED_15",
+        "file": "fonts/Roboto-Condensed.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_CONDENSED_21",
+        "file": "fonts/Roboto-Condensed.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_CONDENSED_20",
+        "file": "fonts/Roboto-Condensed.ttf"
+      },
+      {
+        "characterRegex": "[:0-9 ]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_40",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "characterRegex": "[:0-9 ]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_42",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "characterRegex": "[:0-9]",
+        "type": "font",
+        "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+        "file": "fonts/Roboto-Bold.ttf"
+      },
+      {
+        "characterRegex": "[\u4e0a\u4e0b\u5348\u4e2d\u508d\u665a\u51cc\u6668\u6e05]",
+        "type": "font",
+        "name": "FONT_IPAG_16",
+        "file": "fonts/ipag.ttf"
+      },
+      {
+        "characterRegex": "[0-9\u6708\u65e5\u4e00\u4e8c\u4e09\u56db\u4e94\u516d()]",
+        "type": "font",
+        "name": "FONT_IPAG_21",
+        "file": "fonts/ipag.ttf"
+      },
+      {
+        "characterRegex": "[:\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u5eff\u958f\u6b63\u6708\u521d\u7a0d\u5019\u2026\u96e2\u7dda\u9023\u63a5\u624b\u6a5f\u8d85\u6642\u85cd\u7259\u7aef\u672a\u904b\u884c\u932f\u8aa4\u53c3\u6578\u4e2d\u7de9\u5b58\u6ea2\u51fa\u7a7a\u4e0d\u8db3\u5167\u90e8 0-9\u2103\u2109\u9f8d\u6372\u98a8\u71b1\u5e36\u66b4\u98b6\u5f37\u96f7\u96e8\u96ea\u593e\u51cd\u7d50\u5c0f\u9663\u5149\u5439\u51b0\u96f9\u7070\u5875\u9727\u9670\u973e\u7159\u718f\u52c1\u591a\u51b7\u96f2\u6674\u9593\u967d\u660e\u5a9a\u6717\u96f6\u661f\u5927\u7121\u6cd5\u4f7f\u7528\u221e-]",
+        "type": "font",
+        "name": "FONT_IPAG_17",
+        "file": "fonts/ipag.ttf"
+      },
+      {
+        "characterRegex": "[:\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u5eff\u958f\u6b63\u6708\u521d\u7a0d\u5019\u2026\u96e2\u7dda\u9023\u63a5\u624b\u6a5f\u8d85\u6642\u85cd\u7259\u7aef\u672a\u904b\u884c\u932f\u8aa4\u53c3\u6578\u4e2d\u7de9\u5b58\u6ea2\u51fa\u7a7a\u4e0d\u8db3\u5167\u90e8 0-9\u2103\u2109\u9f8d\u6372\u98a8\u71b1\u5e36\u66b4\u98b6\u5f37\u96f7\u96e8\u96ea\u593e\u51cd\u7d50\u5c0f\u9663\u5149\u5439\u51b0\u96f9\u7070\u5875\u9727\u9670\u973e\u7159\u718f\u52c1\u591a\u51b7\u96f2\u6674\u9593\u967d\u660e\u5a9a\u6717\u96f6\u661f\u5927\u7121\u6cd5\u4f7f\u7528\u221e-]",
+        "type": "font",
+        "name": "FONT_IPAG_20",
+        "file": "fonts/ipag.ttf"
+      },
+      {
+        "characterRegex": "[:\u96e2\u7dda 0-9\u66f4\u65b0\u9023\u63a5\u624b\u6a5f\u8d85\u6642\u85cd\u7259\u7aef\u672a\u904b\u884c\u932f\u8aa4\u53c3\u6578\u4e2d\u7de9\u5b58\u6ea2\u51fa\u7a7a\u9593\u4e0d\u8db3\u5167\u90e8]",
+        "type": "font",
+        "name": "FONT_IPAG_11",
+        "file": "fonts/ipag.ttf"
+      }
+    ]
+  }
+}
